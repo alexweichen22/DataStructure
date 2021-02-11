@@ -1,9 +1,11 @@
 package alex02FakeArrayList;
 
 import org.junit.Assert;
+import org.junit.Test;
 
-public class FakeArrayListLab {
+public class Alex02FakeArrayListLab {
     static final int defaultInt = -2147483648;
+
     public static void main(String[] args) throws Exception {
         TestConstructor();
         TestAdd();
@@ -28,6 +30,9 @@ public class FakeArrayListLab {
 
 
     }
+
+
+
     public static void TestDeleteByValue(){
         int[] initialArrayV = new int[]{90,91,92,93,94,88,95,96};
         int indexRandomV =(int)(Math.random()*initialArrayV.length);
@@ -52,6 +57,7 @@ public class FakeArrayListLab {
             System.out.println(exc.getMessage());
         }
     }
+
 
     public static void TestDeleteByIndex(){
         int[] initialArray = new int[]{90,91,92,93,94,88,95,96};
@@ -82,6 +88,7 @@ public class FakeArrayListLab {
             System.out.println(exc.getMessage());
         }
     }
+
 
     public static void TestAdd(){
         // Initialize with an int[], Add an int[] and then add an int

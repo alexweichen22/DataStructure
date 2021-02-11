@@ -1,9 +1,8 @@
-package com.ipd22;
-
+package alex03Array2D;
 import java.util.Scanner;
 import java.lang.Math;
 
-public class Main {
+public class Alex03Array2D {
     /*
     Day01TwoDimArrays
     Ask user for width and height of an array.
@@ -23,19 +22,10 @@ public class Main {
            (assume that negative number is not a prime number)
      */
     public static void main(String[] args) {
-        String testString = "hi---ok---hi-xxx-hi-hiabc-hi";
-        RecCheckHi(testString,0);
+        Test2DArray();
 
     }
-    // another method to check how many "hi"s
-    private static void RecCheckHi(String input, int number){
-         if(input.contains("hi")){
-            RecCheckHi(input.replaceFirst("hi",""),number+1);
-        }
-        else{
-            System.out.println(number);
-        }
-    }
+
     private static void Test2DArray()
     {
         try{
@@ -134,3 +124,4 @@ public class Main {
         }
     }
 }
+
