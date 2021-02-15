@@ -4,8 +4,7 @@ import java.util.Scanner;
 
 /*
 DAY 01 TASKS
-        ============
-        Day01Arrays
+        ============        Day01Arrays
         Ask user for the size of the array to create, it must be 1 or greater.
         Show an error and end program if it's invalid.
         Also do not allow the program to crash if the entered value is not numerical.

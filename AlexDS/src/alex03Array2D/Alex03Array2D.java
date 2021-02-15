@@ -23,7 +23,6 @@ public class Alex03Array2D {
      */
     public static void main(String[] args) {
         Test2DArray();
-
     }
 
     private static void Test2DArray()
